@@ -1,0 +1,24 @@
+{
+  "name": "tutorial-1",
+  "version": "1.0.0",
+  "description": "js tutorial with nodejs and express js",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coding-Session-Experience/node-and-express-tute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coding-Session-Experience/node-and-express-tute/issues"
+  },
+  "homepage": "https://github.com/Coding-Session-Experience/node-and-express-tute#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "lodash": "^4.17.21"
+  }
+}
