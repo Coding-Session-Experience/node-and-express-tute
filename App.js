@@ -18,17 +18,11 @@
 // console.log('hello people')
 
 
-const {readFile} = require('fs')
+const {createReadStream} = require('fs');
+const { result } = require('lodash');
 
-const getText = (path) => {
-    return new Promise((resolve, reject) => {
-        readFile(path, 'utf8', (err, data) => {
-            if (err) {
-                reject(err)
-            } else {
-                console.log(data);
-            }
-        })
-    })
-}
+const stream = createReadStream('./content/second.txt');
 
+stream.on('data', (result) => {
+    console.log(result);
+})
